@@ -1,0 +1,28 @@
+.new-expense-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.new-expense-form-element label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
+.new-expense-form-element input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    font : inherit;
+    border: 1px solid #ccc ;
+    width: 15rem;
+    max-width: 100%;
+
+}
+
+.btn{
+    text-align: right;
+}
